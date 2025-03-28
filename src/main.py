@@ -20,6 +20,6 @@ if __name__ == "__main__":
     parser.add_argument('entrada', help='Ruta de la imagen de entrada')
     parser.add_argument('salida', help='Ruta para guardar la imagen redimensionada')
     
-    args = parser.parse_args() # Comentario6
+    args = parser.parse_args() # Comentario7
     
     redimensionar_imagen(args.entrada, args.salida)
